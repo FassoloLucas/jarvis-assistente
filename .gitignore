@@ -1,0 +1,73 @@
+# Ambientes virtuais
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Segredos de verdade (chave da OpenRouter, senha do MongoDB) — só o
+# .env.example (sem valores) vai pro git.
+.env
+
+# Credenciais e dados locais — nunca versionar (contas reais, tokens, banco local)
+jarvis/data/*.json
+jarvis/data/*.db
+jarvis/data/connectlife_dump.json
+jarvis/data/connectlife_property_list.json
+resposta.mp3
+
+# Flutter / Dart
+app/build/
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/android/local.properties
+app/android/**/gradle-wrapper.jar
+app/**/*.iml
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Estado local do Claude Code (específico desta máquina/sessão)
+.claude/
+
+# Proteção de configuração, estado e artefatos locais
+.env
+.env.*
+!.env.example
+**/.git/
+**/.venv/
+**/venv/
+**/node_modules/
+**/__pycache__/
+**/.pytest_cache/
+*.pyc
+*.log
+*.db
+*.sqlite*
+*.apk
+*.aab
+*.dex
+*.jks
+*.keystore
+*.pem
+*.p12
+*.mp3
+*cookie*.txt
+**/data/
+**/dados/
+**/build/
+**/.dart_tool/
+**/.gradle/
+**/ephemeral/
+**/Pods/
+**/Generated.xcconfig
+**/flutter_export_environment.sh
+**/local.properties
+**/key.properties
+**/generated_plugin*
+**/GeneratedPlugin*

@@ -1,0 +1,10 @@
+python-dotenv
+fastapi
+uvicorn[standard]
+pyjwt
+bcrypt
+pymongo
+certifi
+openai
+edge-tts
+connectlife
